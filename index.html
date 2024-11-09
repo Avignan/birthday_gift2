@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dummy_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <title>Surprise</title>
+
+</head>
+<body>
+    <div id="happyBirthdayMessage" class="happy-birthday-message" style="display: none;">A Very Blissful Birthday To You 😊</div>
+    <div class="container">
+        <form id="age-form">
+            <p>Hey Surabhi, Welcome! 😊</p>
+            <p>There is a surprise for you, but that requires an input from you</p>
+            <label for="age">So, you'll have to enter your current age and hit "Create":</label>
+            <input class="age_number" value="here" id="age" min="1" max="120" required>
+            <br>
+            <div class="image-holder">
+                <img src="cat.png" alt="cat holding Create button" id="cat-image">
+            </div>
+            <p style="font-weight: bold">PS: Swear to god I wouldn't know your answer</p>
+        </form>
+
+    </div>
+
+    <div class="cake-container" id="cake-container">
+        <div class="cake" id="cake">
+            <div class="plate"></div>
+            <div class="layer layer-bottom"></div>
+            <div class="layer layer-middle"></div>
+            <div class="layer layer-top"></div>
+            <div class="icing"></div>
+            <div class="drip drip1"></div>
+            <div class="drip drip2"></div>
+            <div class="drip drip3"></div>
+            <div class="candles" id="candles"></div>
+        </div>
+    </div>
+    <button id="blowOutButton">Blow Out Candles</button>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="dummy_script.js"></script>
+</body>
+</html>
